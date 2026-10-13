@@ -1,0 +1,34 @@
+{
+  "name": "astroisle",
+  "version": "0.1.0",
+  "description": "Micro-Islands Bundler & Asset Delivery Pipeline for Alpine / Zero-JS",
+  "type": "module",
+  "bin": {
+    "astroisle": "bin/astroisle.js"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "build": "cargo build --release --bin astroisle",
+    "test": "cargo test"
+  },
+  "keywords": [
+    "astro",
+    "micro-islands",
+    "alpinejs",
+    "bundler",
+    "nstd",
+    "sri",
+    "zstd",
+    "brotli",
+    "gzip"
+  ],
+  "author": "NATVEL",
+  "license": "Apache-2.0"
+}
